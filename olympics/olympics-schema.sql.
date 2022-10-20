@@ -1,0 +1,40 @@
+CREATE TABLE athletes (
+    id text,
+    name text,
+    sex text
+);
+CREATE TABLE player_attributes (
+    id text,
+    age text,
+    weight text,
+    team text,
+    year text
+);
+CREATE TABLE olympic_games (
+    id text,
+    season text,
+    year text,
+    city text,
+    games text
+);
+CREATE TABLE olympic_events (
+    id text,
+    sport text,
+    event text
+);
+CREATE TABLE noc_regions (
+    noc text,
+    region text,
+    notes text
+);
+CREATE TABLE medals (
+    id text,
+    medals text
+);
+CREATE TABLE linking_table (
+    athletes_id text,
+    player_attributes text,
+    olympic_games_id text,
+    olympic_events_id text,
+    medals text
+);
