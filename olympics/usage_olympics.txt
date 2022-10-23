@@ -1,0 +1,42 @@
+Usage statement for olympics.py
+
+========================================
+NAME:
+	-h, —help
+
+SYNOPSIS:
+	python3 olympics.py [-h | --help]
+
+DESCRIPTION:
+	returns this statement
+
+========================================
+NAME:
+	-a, --athletes
+
+SYNOPSIS:
+	python3 olympics.py [-a | --athletes] [national olympic committees’ name]
+
+DESCRIPTION:
+	returns a list of athlete names from a specified NOC
+
+========================================
+NAME:
+	-m, --medals
+
+SYNOPSIS:
+	python3 olympics.py [-m | --medals]
+
+DESCRIPTION:
+	returns a list of NOCs in descending order by gold medals won
+
+========================================
+NAME:
+	-e, --events
+
+SYNOPSIS:
+	python3 olympics.py [-y | --years]
+
+DESCRIPTION:
+	returns a list of the years and gold medals won by athletes in descending order
+	
