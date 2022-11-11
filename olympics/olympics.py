@@ -92,7 +92,6 @@ def year_medals():
     read_query(cursor)
     conn.commit()
     conn.close()
-    pass
 
 def read_query(query):
     for row in query:
